@@ -1,0 +1,17 @@
+{
+  "check": "lint",
+  "command": [
+    "node",
+    "node_modules/eslint/bin/eslint.js",
+    ".",
+    "--ignore-pattern",
+    "dist",
+    "--ignore-pattern",
+    ".next"
+  ],
+  "exit_code": 0,
+  "timeout": false,
+  "seconds": 9.62,
+  "timestamp_utc": "2026-10-16T22:21:16.628151+00:00",
+  "status": "PASADA"
+}

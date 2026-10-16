@@ -1,0 +1,26 @@
+{
+  "sourceFiles": 132,
+  "syntaxErrors": [],
+  "missingImports": [],
+  "missingAssets": [],
+  "credentialPatterns": [],
+  "differentSourceFiles": [],
+  "localImports": 112,
+  "assets": [
+    "/assets/character-trio.webp",
+    "/assets/honor-frame.webp",
+    "/assets/school-crest.webp",
+    "/assets/school-group-1024.webp",
+    "/assets/school-group-1600.webp",
+    "/assets/school-group-640.webp",
+    "/assets/school-plaque.webp",
+    "/assets/shared-adventure.webp",
+    "/assets/shared-moment.webp",
+    "/favicon.png",
+    "/fonts/campus-bold.otf",
+    "/fonts/campus-display.otf",
+    "/fonts/campus-sans.otf"
+  ],
+  "preferenceAssertions": 13,
+  "ok": true
+}

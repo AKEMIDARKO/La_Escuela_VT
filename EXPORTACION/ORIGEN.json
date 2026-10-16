@@ -1,0 +1,29 @@
+{
+  "exported_at_utc": "2026-10-16T22:27:42.475240+00:00",
+  "site_title": "La Escuela VT",
+  "project_id": "appgprj_6ac727aaf50c8191a4811c0378a1c83f",
+  "site_url": "https://la-escuela-vt.mcservereden.chatgpt.site",
+  "published_version_number": 3,
+  "published_version_id": "appgprj_6ac727aaf50c8191a4811c0378a1c83f~appgver_26cb171e37ec8191b8eb1287964a1fec",
+  "published_deployment_id": "appgdep_6ac79ebec38c8191b88a777443966f43",
+  "published_deployment_status": "succeeded",
+  "source_commit_sha": "ddae08934bca7de3ddfe6f1de8a3d9435bc761e9",
+  "published_source_commit_sha": "ddae08934bca7de3ddfe6f1de8a3d9435bc761e9",
+  "original_files": 132,
+  "original_bytes": 3473711,
+  "source_recovered_from": "Repositorio Git original de Sites, abierto mediante el flujo oficial sin publicar.",
+  "original_document_copies": {
+    "README.md": "EXPORTACION/ORIGINALES/README.md",
+    ".gitignore": "EXPORTACION/ORIGINALES/.gitignore"
+  },
+  "new_export_files_are_not_original_site_source": true,
+  "production_changes": false,
+  "git_push_executed": false,
+  "deployment_executed": false,
+  "runtime": {
+    "node": "v24.19.0",
+    "pnpm": "11.25.0",
+    "python": "3.12.14",
+    "platform": "Linux x64"
+  }
+}

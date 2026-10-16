@@ -1,0 +1,5 @@
+{
+  "exit_code": 0,
+  "operation": "git add --dry-run sobre un repositorio temporal independiente; sin commits ni remotos",
+  "status": "PASADA"
+}

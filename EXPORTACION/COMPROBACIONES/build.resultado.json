@@ -1,0 +1,13 @@
+{
+  "check": "build",
+  "command": [
+    "node",
+    "scripts/run-framework.mjs",
+    "build"
+  ],
+  "exit_code": 0,
+  "timeout": false,
+  "seconds": 13.81,
+  "timestamp_utc": "2026-10-16T22:21:20.815536+00:00",
+  "status": "PASADA"
+}

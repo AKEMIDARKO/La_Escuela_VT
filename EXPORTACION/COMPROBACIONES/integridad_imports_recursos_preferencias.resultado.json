@@ -1,0 +1,14 @@
+{
+  "check": "integridad_imports_recursos_preferencias",
+  "command": [
+    "node",
+    "/workspace/scratch/1cb6f5f70565/exportacion-escuela/paquete/La_Escuela_VT/EXPORTACION/verificaciones.mjs",
+    "/workspace/sites/la-escuela-vt-export-source",
+    "/workspace/scratch/1cb6f5f70565/exportacion-escuela/original_manifest.json"
+  ],
+  "exit_code": 0,
+  "timeout": false,
+  "seconds": 0.83,
+  "timestamp_utc": "2026-10-16T22:21:07.838078+00:00",
+  "status": "PASADA"
+}

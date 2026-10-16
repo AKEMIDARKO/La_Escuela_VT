@@ -1,0 +1,176 @@
+# Inventario de archivos de La Escuela VT
+
+Origen: commit `ddae08934bca7de3ddfe6f1de8a3d9435bc761e9`, versión publicada 3.
+Archivos originales recuperados: **132**. Bytes originales: **3473711**.
+Archivos totales del paquete: **164**. Bytes totales sin comprimir: **3823791**.
+
+Los originales del README y `.gitignore` están en `EXPORTACION/ORIGINALES/`. Todo el código de aplicación, configuraciones, lockfile y recursos conserva sus bytes. Los archivos nuevos están identificados.
+
+No se incluyen `.git/`, `node_modules/`, secretos, estado de ejecución ni `dist/`. La caché TypeScript versionada de origen se conserva en el ZIP y se ignora al crear un repositorio nuevo.
+
+| Ruta dentro de La_Escuela_VT/ | Bytes | Procedencia |
+| --- | ---: | --- |
+| `.env.example` | 995 | Añadido para exportación |
+| `.gitignore` | 700 | Documento adaptado; original preservado |
+| `.npmrc` | 45 | Original del commit |
+| `.openai/hosting.json` | 91 | Original del commit |
+| `AUDITORIA_GEMINI_ARGON.md` | 10332 | Añadido para exportación |
+| `ESTADO_EXPORTACION.md` | 10059 | Añadido para exportación |
+| `EXPORTACION/ARCHIVOS_ORIGINALES.json` | 23176 | Añadido para exportación |
+| `EXPORTACION/ARTEFACTOS_BUILD.json` | 13299 | Añadido para exportación |
+| `EXPORTACION/COMPROBACIONES/RESULTADOS.json` | 2024 | Añadido para exportación |
+| `EXPORTACION/COMPROBACIONES/build.log` | 1188 | Añadido para exportación |
+| `EXPORTACION/COMPROBACIONES/build.resultado.json` | 235 | Añadido para exportación |
+| `EXPORTACION/COMPROBACIONES/dependencias_audit.log` | 146921 | Añadido para exportación |
+| `EXPORTACION/COMPROBACIONES/dependencias_audit.resultado.json` | 555 | Añadido para exportación |
+| `EXPORTACION/COMPROBACIONES/git_estructura.log` | 5476 | Añadido para exportación |
+| `EXPORTACION/COMPROBACIONES/git_estructura.resultado.json` | 147 | Añadido para exportación |
+| `EXPORTACION/COMPROBACIONES/instalacion.log` | 65193 | Añadido para exportación |
+| `EXPORTACION/COMPROBACIONES/instalacion.resultado.json` | 21 | Añadido para exportación |
+| `EXPORTACION/COMPROBACIONES/integridad_imports_recursos_preferencias.log` | 668 | Añadido para exportación |
+| `EXPORTACION/COMPROBACIONES/integridad_imports_recursos_preferencias.resultado.json` | 469 | Añadido para exportación |
+| `EXPORTACION/COMPROBACIONES/lint.log` | 2061 | Añadido para exportación |
+| `EXPORTACION/COMPROBACIONES/lint.resultado.json` | 310 | Añadido para exportación |
+| `EXPORTACION/COMPROBACIONES/typecheck.log` | 0 | Añadido para exportación |
+| `EXPORTACION/COMPROBACIONES/typecheck.resultado.json` | 281 | Añadido para exportación |
+| `EXPORTACION/COMPROBACIONES/verificacion_paquete.log` | 0 | Añadido para exportación |
+| `EXPORTACION/COMPROBACIONES/verificacion_paquete.resultado.json` | 162 | Añadido para exportación |
+| `EXPORTACION/DEPENDENCIAS_ALERTAS.md` | 15295 | Añadido para exportación |
+| `EXPORTACION/LICENCIAS_Y_RECURSOS.md` | 2174 | Añadido para exportación |
+| `EXPORTACION/ORIGEN.json` | 1206 | Añadido para exportación |
+| `EXPORTACION/ORIGINALES/.gitignore` | 598 | Copia íntegra del documento original |
+| `EXPORTACION/ORIGINALES/README.md` | 10120 | Copia íntegra del documento original |
+| `EXPORTACION/verificaciones.mjs` | 6568 | Añadido para exportación |
+| `EXPORTACION/verificar_integridad.py` | 2147 | Añadido para exportación |
+| `GUIA_GITHUB.md` | 3061 | Añadido para exportación |
+| `INVENTARIO_ARCHIVOS.md` | 11449 | Añadido para exportación |
+| `README.md` | 8481 | Documento adaptado; original preservado |
+| `SHA256SUMS.txt` | 15427 | Añadido para exportación |
+| `app/chatgpt-auth.ts` | 2550 | Original del commit |
+| `app/content.ts` | 39269 | Original del commit |
+| `app/globals.css` | 42543 | Original del commit |
+| `app/layout.tsx` | 940 | Original del commit |
+| `app/page.tsx` | 17590 | Original del commit |
+| `app/preferences.ts` | 950 | Original del commit |
+| `build/connector-preview-plugin.mjs` | 7211 | Original del commit |
+| `build/connector-preview-worker.mjs` | 594 | Original del commit |
+| `build/sites-vite-plugin.LICENSE` | 1063 | Original del commit |
+| `build/sites-vite-plugin.ts` | 7185 | Original del commit |
+| `build/sites-worker.ts` | 1279 | Original del commit |
+| `cloudflare-env.d.ts` | 99 | Original del commit |
+| `components/connector-error.tsx` | 1082 | Original del commit |
+| `components/ui/accordion.tsx` | 2048 | Original del commit |
+| `components/ui/alert-dialog.tsx` | 5439 | Original del commit |
+| `components/ui/alert.tsx` | 1614 | Original del commit |
+| `components/ui/aspect-ratio.tsx` | 274 | Original del commit |
+| `components/ui/attachment.tsx` | 6002 | Original del commit |
+| `components/ui/avatar.tsx` | 2916 | Original del commit |
+| `components/ui/badge.tsx` | 1776 | Original del commit |
+| `components/ui/breadcrumb.tsx` | 2350 | Original del commit |
+| `components/ui/bubble.tsx` | 4699 | Original del commit |
+| `components/ui/button-group.tsx` | 2202 | Original del commit |
+| `components/ui/button.tsx` | 2392 | Original del commit |
+| `components/ui/calendar.tsx` | 7832 | Original del commit |
+| `components/ui/card.tsx` | 1987 | Original del commit |
+| `components/ui/carousel.tsx` | 5556 | Original del commit |
+| `components/ui/chart.tsx` | 10614 | Original del commit |
+| `components/ui/checkbox.tsx` | 1214 | Original del commit |
+| `components/ui/collapsible.tsx` | 795 | Original del commit |
+| `components/ui/combobox.tsx` | 9158 | Original del commit |
+| `components/ui/command.tsx` | 4818 | Original del commit |
+| `components/ui/context-menu.tsx` | 8268 | Original del commit |
+| `components/ui/dialog.tsx` | 4303 | Original del commit |
+| `components/ui/direction.tsx` | 506 | Original del commit |
+| `components/ui/drawer.tsx` | 4255 | Original del commit |
+| `components/ui/dropdown-menu.tsx` | 8418 | Original del commit |
+| `components/ui/empty.tsx` | 2396 | Original del commit |
+| `components/ui/field.tsx` | 6159 | Original del commit |
+| `components/ui/form.tsx` | 3757 | Original del commit |
+| `components/ui/hover-card.tsx` | 1526 | Original del commit |
+| `components/ui/input-group.tsx` | 5065 | Original del commit |
+| `components/ui/input-otp.tsx` | 2254 | Original del commit |
+| `components/ui/input.tsx` | 962 | Original del commit |
+| `components/ui/item.tsx` | 4486 | Original del commit |
+| `components/ui/kbd.tsx` | 862 | Original del commit |
+| `components/ui/label.tsx` | 606 | Original del commit |
+| `components/ui/marker.tsx` | 1864 | Original del commit |
+| `components/ui/menubar.tsx` | 8389 | Original del commit |
+| `components/ui/message-scroller.tsx` | 3992 | Original del commit |
+| `components/ui/message.tsx` | 2232 | Original del commit |
+| `components/ui/native-select.tsx` | 1995 | Original del commit |
+| `components/ui/navigation-menu.tsx` | 6658 | Original del commit |
+| `components/ui/pagination.tsx` | 2717 | Original del commit |
+| `components/ui/popover.tsx` | 2357 | Original del commit |
+| `components/ui/progress.tsx` | 755 | Original del commit |
+| `components/ui/radio-group.tsx` | 1460 | Original del commit |
+| `components/ui/resizable.tsx` | 1815 | Original del commit |
+| `components/ui/scroll-area.tsx` | 1639 | Original del commit |
+| `components/ui/select.tsx` | 6353 | Original del commit |
+| `components/ui/separator.tsx` | 694 | Original del commit |
+| `components/ui/sheet.tsx` | 4188 | Original del commit |
+| `components/ui/sidebar.tsx` | 21526 | Original del commit |
+| `components/ui/skeleton.tsx` | 276 | Original del commit |
+| `components/ui/slider.tsx` | 1991 | Original del commit |
+| `components/ui/sonner.tsx` | 1034 | Original del commit |
+| `components/ui/spinner.tsx` | 331 | Original del commit |
+| `components/ui/switch.tsx` | 1408 | Original del commit |
+| `components/ui/table.tsx` | 2478 | Original del commit |
+| `components/ui/tabs.tsx` | 3782 | Original del commit |
+| `components/ui/textarea.tsx` | 759 | Original del commit |
+| `components/ui/toggle-group.tsx` | 2308 | Original del commit |
+| `components/ui/toggle.tsx` | 1565 | Original del commit |
+| `components/ui/tooltip.tsx` | 1830 | Original del commit |
+| `components.json` | 420 | Original del commit |
+| `db/index.ts` | 423 | Original del commit |
+| `db/schema.ts` | 169 | Original del commit |
+| `drizzle/meta/_journal.json` | 61 | Original del commit |
+| `drizzle.config.ts` | 148 | Original del commit |
+| `eslint.config.mjs` | 846 | Original del commit |
+| `examples/d1/app/api/notes/route.ts` | 1700 | Original del commit |
+| `examples/d1/db/schema.ts` | 370 | Original del commit |
+| `hooks/use-mobile.ts` | 565 | Original del commit |
+| `lib/connector-context.ts` | 612 | Original del commit |
+| `lib/connector-contract.mts` | 5362 | Original del commit |
+| `lib/connector-errors.mts` | 2717 | Original del commit |
+| `lib/connector-preview.d.ts` | 433 | Original del commit |
+| `lib/connectors.ts` | 416 | Original del commit |
+| `lib/utils.ts` | 177 | Original del commit |
+| `next.config.ts` | 133 | Original del commit |
+| `package.json` | 2139 | Original del commit |
+| `pnpm-lock.yaml` | 345021 | Original del commit |
+| `pnpm-workspace.yaml` | 736 | Original del commit |
+| `postcss.config.mjs` | 94 | Original del commit |
+| `public/assets/campus.webp` | 326020 | Original del commit |
+| `public/assets/character-trio.webp` | 84930 | Original del commit |
+| `public/assets/honor-frame.webp` | 53378 | Original del commit |
+| `public/assets/school-crest.webp` | 48256 | Original del commit |
+| `public/assets/school-group-1024.webp` | 254734 | Original del commit |
+| `public/assets/school-group-1600.webp` | 488836 | Original del commit |
+| `public/assets/school-group-640.webp` | 124570 | Original del commit |
+| `public/assets/school-plaque.webp` | 50378 | Original del commit |
+| `public/assets/shared-adventure.webp` | 150518 | Original del commit |
+| `public/assets/shared-moment.webp` | 175300 | Original del commit |
+| `public/favicon.png` | 29962 | Original del commit |
+| `public/favicon.svg` | 247 | Original del commit |
+| `public/fonts/LICENSE.txt` | 52517 | Original del commit |
+| `public/fonts/campus-bold.otf` | 83264 | Original del commit |
+| `public/fonts/campus-display.otf` | 83580 | Original del commit |
+| `public/fonts/campus-sans.otf` | 82264 | Original del commit |
+| `scripts/build-verified.sh` | 661 | Original del commit |
+| `scripts/connector-preview/connector-preview-session.mjs` | 6842 | Original del commit |
+| `scripts/connector-preview/host-binding.mjs` | 7793 | Original del commit |
+| `scripts/connector-preview/protocol.mjs` | 1781 | Original del commit |
+| `scripts/execution-profile.mjs` | 624 | Original del commit |
+| `scripts/install-ci.mjs` | 1685 | Original del commit |
+| `scripts/install-ci.sh` | 6783 | Original del commit |
+| `scripts/install-pnpm.sh` | 9015 | Original del commit |
+| `scripts/npm-install.mjs` | 7025 | Original del commit |
+| `scripts/pnpm-install.mjs` | 10633 | Original del commit |
+| `scripts/run-framework.mjs` | 993 | Original del commit |
+| `scripts/sites-env.mjs` | 906 | Original del commit |
+| `scripts/sites-env.sh` | 1530 | Original del commit |
+| `tsconfig.json` | 800 | Original del commit |
+| `tsconfig.tsbuildinfo` | 598011 | Original del commit |
+| `vendor/shadcn-tailwind-4.13.0.LICENSE.md` | 1063 | Original del commit |
+| `vendor/shadcn-tailwind-4.13.0.css` | 16041 | Original del commit |
+| `vite.config.ts` | 3115 | Original del commit |

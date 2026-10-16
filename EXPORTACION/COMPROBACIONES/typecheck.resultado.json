@@ -1,0 +1,15 @@
+{
+  "check": "typecheck",
+  "command": [
+    "node",
+    "node_modules/typescript/bin/tsc",
+    "--noEmit",
+    "--incremental",
+    "false"
+  ],
+  "exit_code": 0,
+  "timeout": false,
+  "seconds": 9.93,
+  "timestamp_utc": "2026-10-16T22:21:16.931548+00:00",
+  "status": "PASADA"
+}

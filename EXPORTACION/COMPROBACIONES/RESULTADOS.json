@@ -1,0 +1,85 @@
+[
+  {
+    "check": "build",
+    "command": [
+      "node",
+      "scripts/run-framework.mjs",
+      "build"
+    ],
+    "exit_code": 0,
+    "timeout": false,
+    "seconds": 13.81,
+    "timestamp_utc": "2026-10-16T22:21:20.815536+00:00",
+    "status": "PASADA"
+  },
+  {
+    "check": "dependencias_audit",
+    "command": [
+      "node",
+      "/opt/codex/tools/pnpm/bin/pnpm.cjs",
+      "audit",
+      "--json"
+    ],
+    "exit_code": 1,
+    "timeout": false,
+    "seconds": 11.29,
+    "timestamp_utc": "2026-10-16T22:21:18.297191+00:00",
+    "status": "ALERTAS",
+    "execution_completed": true,
+    "vulnerabilities": {
+      "info": 0,
+      "low": 8,
+      "moderate": 23,
+      "high": 30,
+      "critical": 1
+    },
+    "unique_advisories": 62,
+    "note": "Salida 1 porque se han encontrado alertas; la consulta ha finalizado y no se aplicaron correcciones."
+  },
+  {
+    "check": "integridad_imports_recursos_preferencias",
+    "command": [
+      "node",
+      "/workspace/scratch/1cb6f5f70565/exportacion-escuela/paquete/La_Escuela_VT/EXPORTACION/verificaciones.mjs",
+      "/workspace/sites/la-escuela-vt-export-source",
+      "/workspace/scratch/1cb6f5f70565/exportacion-escuela/original_manifest.json"
+    ],
+    "exit_code": 0,
+    "timeout": false,
+    "seconds": 0.83,
+    "timestamp_utc": "2026-10-16T22:21:07.838078+00:00",
+    "status": "PASADA"
+  },
+  {
+    "check": "lint",
+    "command": [
+      "node",
+      "node_modules/eslint/bin/eslint.js",
+      ".",
+      "--ignore-pattern",
+      "dist",
+      "--ignore-pattern",
+      ".next"
+    ],
+    "exit_code": 0,
+    "timeout": false,
+    "seconds": 9.62,
+    "timestamp_utc": "2026-10-16T22:21:16.628151+00:00",
+    "status": "PASADA"
+  },
+  {
+    "check": "typecheck",
+    "command": [
+      "node",
+      "node_modules/typescript/bin/tsc",
+      "--noEmit",
+      "--incremental",
+      "false"
+    ],
+    "exit_code": 0,
+    "timeout": false,
+    "seconds": 9.93,
+    "timestamp_utc": "2026-10-16T22:21:16.931548+00:00",
+    "status": "PASADA"
+  }
+]

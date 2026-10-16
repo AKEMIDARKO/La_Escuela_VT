@@ -1,0 +1,4 @@
+{
+  "exit_code": 0,
+  "description": "Verificador suplementario sobre la carpeta exacta de entrega, reutilizando las dependencias instaladas del mismo commit."
+}
